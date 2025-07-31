@@ -2,7 +2,7 @@
 
 This repository documents a small C-based proof-of-concept that performs remote memory injection into the `explorer.exe` process on Windows. The injected payload is a benign string written into memory, simulating a common staging technique used in both red team tooling and real-world malware.
 
-## 📄 File Contents
+## File Contents
 - `injector.c`: C source code demonstrating remote memory injection (stager only; no execution)
 - `README.md`: Static/dynamic analysis, behavioral signature breakdown, and detection strategy
 
